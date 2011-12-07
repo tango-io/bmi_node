@@ -25,13 +25,18 @@ exports.height = function (test){
 }
 
 exports.prime = function (test){
+  BMI = 0;
+  test.equal(bmi.prime(), "It requires bmi()");
   bmi.weight(80,'k');
   bmi.height(1.7,'m');
+  bmi.bmi();
   test.equal(bmi.prime(), 1.1072664359861593);
   test.done();
 }
 
 exports.prcnt = function (test){
+  PRIME = 0;
+  test.equal(bmi.prcnt(), "It requires prime()");
   bmi.weight(80,'k');
   bmi.height(1.7,'m');
   bmi.bmi();
@@ -40,5 +45,20 @@ exports.prcnt = function (test){
   test.done();
 }
 
+exports.cases = function (test){
+  BMI = 18;
+  test.equal(bmi.cases(), "Underweight");
+  BMI = 19;
+  test.equal(bmi.cases(), "Normal");
+  BMI = 26;
+  test.equal(bmi.cases(), "Overweight");
+  BMI = 33;
+  test.equal(bmi.cases(), "Obese Class I");
+  BMI = 38;
+  test.equal(bmi.cases(), "Obese Class II");
+  BMI = 50;
+  test.equal(bmi.cases(), "Obese Class III");
+  test.done();
+}
 
 
