@@ -4,7 +4,7 @@
   "description": "Body Mass Index",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "git://github.com/tangosource/bmi_node.git"
   },
   "main": "bmi",
   "engines": {
