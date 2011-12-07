@@ -1,10 +1,12 @@
 {
   "author": "Narciso <narciso.guillen@tangosource.com>",
   "name": "bmi",
+  "url" : "https://github.com/tangosource/bmi_node",
   "description": "Body Mass Index",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
-    "url": "git://github.com/tangosource/bmi_node.git"
+    "type" : "git"
+    ,"url": "git://github.com/tangosource/bmi_node.git"
   },
   "main": "bmi",
   "engines": {
