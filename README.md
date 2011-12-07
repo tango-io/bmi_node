@@ -54,7 +54,7 @@ In order to determinate BMI:
 - prcnt();
 - cases();
 
-oxample:
+Example:
 
     bmi.weight(120,'p'); 
     bmi.height(63,'i');
