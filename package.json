@@ -11,7 +11,9 @@
     "node": "~0.6.5"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "unitnode" : "~0.6.4"
+    }
   , "scripts" : {
       "test" : "make test"
     }
